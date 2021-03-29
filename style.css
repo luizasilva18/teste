@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    height: 980px;
+    width: 100%;
+   background-color: #2CB3F3;
+  }
+
+
+  .section-text{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 4rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 30px;
+ }
+
+
+  .branco{
+width: 880px;
+height: 616px;
+background-color: white;
+ position: absolute;
+left: 243px;
+ top: 245px;
+border-radius: 100px 100px 0px 0px;
+  }
+
+  .rose{
+position: absolute;
+width: 692px;
+height: 487px;
+left: 337px;
+top: 309px;
+border-radius: 50%;
+background-color: #FFE1C9;
+  }
+
+.olho-esq{
+height: 55.7px;
+width: 55.7px;
+position: absolute;
+left: 515.39px;
+top: 405.88px;
+border-radius: 50%;
+background-color: black;
+}
+
+.olho-dir{
+    height: 55.7px;
+width: 55.7px;
+position: absolute;
+left:795.46px;
+top: 405.88px;
+border-radius: 50%;
+background-color: black;
+}
+
+.email{
+width: 373.96px;
+height: 63.65px;
+position: absolute;
+left: 496.29px;
+top: 563px;
+background-color: #FFFFFF;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.email-p{
+font-size: 24px;
+line-height: 28px;
+font-family: 'Roboto', sans-serif;
+color: #CCCCCC;
+position: absolute;
+left: 10px;
+top: 10px;
+}
+
+.password{
+width: 373.96px;
+height: 63.65px;
+position: absolute;
+left: 496.29px;
+top: 626px;
+background-color: #FFFFFF;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.password-p{
+ font-size: 24px;
+line-height: 28px;
+font-family: 'Roboto', sans-serif;
+color: #CCCCCC;
+position: absolute;
+left: 10px;
+top: 10px;
+}
+
+.entrar{
+width: 220px;
+height: 70px;
+position: absolute;
+left: 573px;
+top: 885px;
+background-color: #55A603;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+.entrar-p{
+ width: 92px;
+height: 28px;
+position: absolute;
+left: 67px;
+top: 24px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+color: #B2F272;
+}
